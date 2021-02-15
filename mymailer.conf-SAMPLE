@@ -1,0 +1,12 @@
+mail.smtp.host=smtp.gmail.com
+mail.smtp.port=465
+mail.smtp.auth=true
+mail.smtp.user=${env:SMTP_TEST_USER}
+mail.smtp.password=${env:SMTP_TEST_PWD}
+mail.smtp.ssl.enable=true
+mail.smtp.starttls.enable=false
+
+mail.from=noreply@gmail.com
+mail.to=
+mail.subject=This is an email subject line
+mail.body=This is a message body.
